@@ -1,0 +1,105 @@
+#flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#generate {
+    transition: 600ms ease-in;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: white;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+}
+
+#password {
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 0px 0px ;
+    outline: none;
+    border: none;
+    width: 500px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    resize: none;
+    margin-top: 20px;
+    color: black;
+    transform-origin: bottom;
+}
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .strength {
+    height: 10px;
+    transition: 1s ease;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .symbol {
+    border-radius: 50%;
+    background: red;
+  }
+
+  .symbol:checked {
+    background: red;
+  }
+
+  label[for='symbol'] {
+    transition: 2s ease;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  label[for='numbers'] {
+    transition: 2s ease;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .lengthSet {
+    position: relative;
+    left: 44%;
+    right: 50%;
+  }
+
+  .rangeVal {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
